@@ -1,0 +1,31 @@
+{
+  "name": "jwt-fiddle",
+  "version": "0.0.0",
+  "description": "A Fiddle to show an implementation of JWT using Node and passport",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caal-15/jwt-fiddle.git"
+  },
+  "keywords": [
+    "node",
+    "jwt",
+    "passport"
+  ],
+  "author": "Carlos González",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caal-15/jwt-fiddle/issues"
+  },
+  "homepage": "https://github.com/caal-15/jwt-fiddle#readme",
+  "dependencies": {
+    "jsonwebtoken": "^7.3.0",
+    "mongoose": "^4.8.4",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "restify": "^4.3.0"
+  }
+}
